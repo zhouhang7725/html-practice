@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.head {
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.content {
+    height: 900px;
+    /* 因为设置了center为1000，我们又设置了总内边距为40，所以要想不改变center宽度，内容就要为1000-40为960 */
+    width: 960px;
+    background-color: #fff;
+    margin: 12px auto;
+    padding: 20px;
+}
+
+.bottom {
+    height: 100px;
+    background-color: #fff;
+}
